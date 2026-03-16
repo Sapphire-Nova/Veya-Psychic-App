@@ -1,37 +1,28 @@
 ﻿import React from 'react';
-import { Routes, Route } from 'react-router-dom';
 import { Authenticator } from '@aws-amplify/ui-react';
-import Navbar from './components/Navbar';
-import Home from './pages/Home';
-import BookReading from './pages/BookReading';
-import Meditations from './pages/Meditations';
-import ChakraQuiz from './components/ChakraQuiz';
+import '@aws-amplify/ui-react/styles.css';
 import LearnLibrary from './components/LearnLibrary';
-import Sanctuary from './pages/Sanctuary';
-import Community from './components/Community';
-import Booking from './pages/Booking';
-import Login from './pages/Login';
-import AdminPanel from './pages/AdminPanel';
 
 function App() {
   return (
-    <Authenticator.Provider>
-      <div style={{ paddingBottom: '80px' }}>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/Meditations" element={<Meditations />} />
-          <Route path="/Services" element={<BookReading />} />
-          <Route path="/Tools/ChakraCheck" element={<ChakraQuiz />} />
-          <Route path="/Chakra-Guide" element={<LearnLibrary />} />
-          <Route path="/Community" element={<Community />} />
-          <Route path="/Schedule" element={<Booking />} />
-          <Route path="/Login" element={<Login />} />
-          <Route path="/Sanctuary" element={<Sanctuary />} />
-          <Route path="/Violet-Admin-Portal" element={<AdminPanel />} />
-        </Routes>
-        <Navbar />
-      </div>
-    </Authenticator.Provider>
+    <Authenticator>
+      {({ signOut, user }) => (
+        <main style={{ backgroundColor: '#000', minHeight: '100vh', color: 'white' }}>
+          <header style={{ padding: '10px', borderBottom: '1px solid #FFD700', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+            <h1 style={{ color: '#FFD700', margin: 0 }}>Veya Sanctuary</h1>
+            <button onClick={signOut} style={{ background: 'transparent', color: '#FFD700', border: '1px solid #FFD700', padding: '5px 10px', borderRadius: '5px' }}>
+              Sign Out
+            </button>
+          </header>
+          
+          <div style={{ padding: '20px' }}>
+            <h2>Welcome back, {user?.username}</h2>
+            <p>Your spiritual journey continues...</p>
+            <LearnLibrary />
+          </div>
+        </main>
+      )}
+    </Authenticator>
   );
 }
 
