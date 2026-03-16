@@ -1,0 +1,1305 @@
+{
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9": [
+    {
+      "type": "aws:cdk:stack-tags",
+      "data": [
+        {
+          "key": "amplify:deployment-type",
+          "value": "sandbox"
+        },
+        {
+          "key": "created-by",
+          "value": "amplify"
+        }
+      ]
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/deploymentType": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "deploymentType"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/region": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "region"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/userPoolId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "userPoolId"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/webClientId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "webClientId"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/identityPoolId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "identityPoolId"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/authRegion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "authRegion"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/allowUnauthenticatedIdentities": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "allowUnauthenticatedIdentities"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/signupAttributes": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "signupAttributes"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/usernameAttributes": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "usernameAttributes"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/verificationMechanisms": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "verificationMechanisms"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/passwordPolicyMinLength": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "passwordPolicyMinLength"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/passwordPolicyRequirements": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "passwordPolicyRequirements"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/mfaConfiguration": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "mfaConfiguration"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/mfaTypes": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "mfaTypes"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/passwordlessOptions": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "passwordlessOptions"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/socialProviders": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "socialProviders"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/oauthCognitoDomain": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "oauthCognitoDomain"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/oauthScope": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "oauthScope"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/oauthRedirectSignIn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "oauthRedirectSignIn"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/oauthRedirectSignOut": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "oauthRedirectSignOut"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/oauthResponseType": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "oauthResponseType"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/oauthClientId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "oauthClientId"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/groups": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "groups"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/awsAppsyncApiId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "awsAppsyncApiId"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/awsAppsyncApiEndpoint": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "awsAppsyncApiEndpoint"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/awsAppsyncAuthenticationType": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "awsAppsyncAuthenticationType"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/awsAppsyncRegion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "awsAppsyncRegion"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/amplifyApiModelSchemaS3Uri": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyApiModelSchemaS3Uri"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/awsAppsyncAdditionalAuthenticationTypes": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "awsAppsyncAdditionalAuthenticationTypes"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/storageRegion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "storageRegion"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/bucketName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "bucketName"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/buckets": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "buckets"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/BootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BootstrapVersion"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/CheckBootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CheckBootstrapVersion"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/auth/amplifyveyapsychicapplunabsandboxf8c0e883c9authamplifyAuthUserPoolC422EC03Ref": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyveyapsychicapplunabsandboxf8c0e883c9authamplifyAuthUserPoolC422EC03Ref"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/auth/amplifyveyapsychicapplunabsandboxf8c0e883c9authamplifyAuthUserPoolAppClientC661A99CRef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyveyapsychicapplunabsandboxf8c0e883c9authamplifyAuthUserPoolAppClientC661A99CRef"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/auth/amplifyveyapsychicapplunabsandboxf8c0e883c9authamplifyAuthIdentityPoolE1E06F9CRef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyveyapsychicapplunabsandboxf8c0e883c9authamplifyAuthIdentityPoolE1E06F9CRef"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/auth/amplifyveyapsychicapplunabsandboxf8c0e883c9authamplifyAuthauthenticatedUserRole3764DBBCRef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyveyapsychicapplunabsandboxf8c0e883c9authamplifyAuthauthenticatedUserRole3764DBBCRef"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/auth/amplifyveyapsychicapplunabsandboxf8c0e883c9authamplifyAuthunauthenticatedUserRole01BB3B1FRef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyveyapsychicapplunabsandboxf8c0e883c9authamplifyAuthunauthenticatedUserRole01BB3B1FRef"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/auth.NestedStack/auth.NestedStackResource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "auth179371D7"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/DynamoDBModelTableReadIOPS": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBModelTableReadIOPS"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/DynamoDBModelTableWriteIOPS": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBModelTableWriteIOPS"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/DynamoDBBillingMode": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBBillingMode"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/DynamoDBEnablePointInTimeRecovery": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBEnablePointInTimeRecovery"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/DynamoDBEnableServerSideEncryption": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBEnableServerSideEncryption"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/Custom::S3AutoDeleteObjectsCustomResourceProvider": [
+    {
+      "type": "aws:cdk:is-custom-resource-handler-customResourceProvider",
+      "data": true
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB": [
+    {
+      "type": "aws:cdk:is-custom-resource-handler-singleton",
+      "data": true
+    },
+    {
+      "type": "aws:cdk:is-custom-resource-handler-runtime-family",
+      "data": 2
+    },
+    {
+      "type": "aws:cdk:is-custom-resource-handler-singleton",
+      "data": true
+    },
+    {
+      "type": "aws:cdk:is-custom-resource-handler-runtime-family",
+      "data": 2
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/reference-to-amplifyveyapsychicapplunabsandboxf8c0e883c9authNestedStackauthNestedStackResource8FB4F44AOutputs.amplifyveyapsychicapplunabsandboxf8c0e883c9authamplifyAuthUserPoolC422EC03Ref": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifyveyapsychicapplunabsandboxf8c0e883c9authNestedStackauthNestedStackResource8FB4F44AOutputsamplifyveyapsychicapplunabsandboxf8c0e883c9authamplifyAuthUserPoolC422EC03Ref"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/reference-to-amplifyveyapsychicapplunabsandboxf8c0e883c9authNestedStackauthNestedStackResource8FB4F44AOutputs.amplifyveyapsychicapplunabsandboxf8c0e883c9authamplifyAuthauthenticatedUserRole3764DBBCRef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifyveyapsychicapplunabsandboxf8c0e883c9authNestedStackauthNestedStackResource8FB4F44AOutputsamplifyveyapsychicapplunabsandboxf8c0e883c9authamplifyAuthauthenticatedUserRole3764DBBCRef"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/reference-to-amplifyveyapsychicapplunabsandboxf8c0e883c9authNestedStackauthNestedStackResource8FB4F44AOutputs.amplifyveyapsychicapplunabsandboxf8c0e883c9authamplifyAuthunauthenticatedUserRole01BB3B1FRef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifyveyapsychicapplunabsandboxf8c0e883c9authNestedStackauthNestedStackResource8FB4F44AOutputsamplifyveyapsychicapplunabsandboxf8c0e883c9authamplifyAuthunauthenticatedUserRole01BB3B1FRef"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/reference-to-amplifyveyapsychicapplunabsandboxf8c0e883c9authNestedStackauthNestedStackResource8FB4F44AOutputs.amplifyveyapsychicapplunabsandboxf8c0e883c9authamplifyAuthIdentityPoolE1E06F9CRef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifyveyapsychicapplunabsandboxf8c0e883c9authNestedStackauthNestedStackResource8FB4F44AOutputsamplifyveyapsychicapplunabsandboxf8c0e883c9authamplifyAuthIdentityPoolE1E06F9CRef"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyveyapsychicapplunabsandboxf8c0e883c9dataamplifyDataGraphQLAPI8A3FDA73ApiId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyveyapsychicapplunabsandboxf8c0e883c9dataamplifyDataGraphQLAPI8A3FDA73ApiId"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyveyapsychicapplunabsandboxf8c0e883c9dataamplifyDataGraphQLAPI8A3FDA73GraphQLUrl": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyveyapsychicapplunabsandboxf8c0e883c9dataamplifyDataGraphQLAPI8A3FDA73GraphQLUrl"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyveyapsychicapplunabsandboxf8c0e883c9dataamplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiB93940BFCDestinationBucketArn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyveyapsychicapplunabsandboxf8c0e883c9dataamplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiB93940BFCDestinationBucketArn"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data.NestedStack/data.NestedStackResource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "data7552DF31"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/storage/Custom::S3AutoDeleteObjectsCustomResourceProvider": [
+    {
+      "type": "aws:cdk:is-custom-resource-handler-customResourceProvider",
+      "data": true
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/storage/reference-to-amplifyveyapsychicapplunabsandboxf8c0e883c9authNestedStackauthNestedStackResource8FB4F44AOutputs.amplifyveyapsychicapplunabsandboxf8c0e883c9authamplifyAuthunauthenticatedUserRole01BB3B1FRef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifyveyapsychicapplunabsandboxf8c0e883c9authNestedStackauthNestedStackResource8FB4F44AOutputsamplifyveyapsychicapplunabsandboxf8c0e883c9authamplifyAuthunauthenticatedUserRole01BB3B1FRef"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/storage/reference-to-amplifyveyapsychicapplunabsandboxf8c0e883c9authNestedStackauthNestedStackResource8FB4F44AOutputs.amplifyveyapsychicapplunabsandboxf8c0e883c9authamplifyAuthauthenticatedUserRole3764DBBCRef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifyveyapsychicapplunabsandboxf8c0e883c9authNestedStackauthNestedStackResource8FB4F44AOutputsamplifyveyapsychicapplunabsandboxf8c0e883c9authamplifyAuthauthenticatedUserRole3764DBBCRef"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/storage/amplifyveyapsychicapplunabsandboxf8c0e883c9storageveyaDriveBucket80DA83EBRef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyveyapsychicapplunabsandboxf8c0e883c9storageveyaDriveBucket80DA83EBRef"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/storage.NestedStack/storage.NestedStackResource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "storage0EC3F24A"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/CDKMetadata/Condition": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadataAvailable"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/auth/amplifyAuth/IdentityPool": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyAuthIdentityPool3FDE84CC"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/auth/amplifyAuth/IdentityPoolRoleAttachment": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyAuthIdentityPoolRoleAttachment045F17C8"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/auth/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/auth/CDKMetadata/Condition": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadataAvailable"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/Custom::S3AutoDeleteObjectsCustomResourceProvider/Role": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomS3AutoDeleteObjectsCustomResourceProviderRole3B1BD092"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/Custom::S3AutoDeleteObjectsCustomResourceProvider/Handler": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomS3AutoDeleteObjectsCustomResourceProviderHandler9D90184F"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBC5D8AB21"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/modelIntrospectionSchemaBucket/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "modelIntrospectionSchemaBucketF566B665"
+    },
+    {
+      "type": "aws:cdk:analytics:mixin",
+      "data": {
+        "mixin": "aws-cdk-lib.aws_s3.mixins.BucketAutoDeleteObjects"
+      }
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/AMPLIFY_DATA_GRAPHQL_ENDPOINTParameter/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AMPLIFYDATAGRAPHQLENDPOINTParameter1C2CBB16"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/AMPLIFY_DATA_MODEL_INTROSPECTION_SCHEMA_BUCKET_NAMEParameter/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AMPLIFYDATAMODELINTROSPECTIONSCHEMABUCKETNAMEParameter47BF4F44"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/AMPLIFY_DATA_MODEL_INTROSPECTION_SCHEMA_KEYParameter/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AMPLIFYDATAMODELINTROSPECTIONSCHEMAKEYParameterB6AEAE8A"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/AMPLIFY_DATA_DEFAULT_NAMEParameter/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AMPLIFYDATADEFAULTNAMEParameterE7C23CC4"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/CDKMetadata/Condition": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadataAvailable"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/storage/Custom::S3AutoDeleteObjectsCustomResourceProvider/Role": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomS3AutoDeleteObjectsCustomResourceProviderRole3B1BD092"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/storage/Custom::S3AutoDeleteObjectsCustomResourceProvider/Handler": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomS3AutoDeleteObjectsCustomResourceProviderHandler9D90184F"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/storage/VEYA_DRIVE_BUCKET_NAMEParameter/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "VEYADRIVEBUCKETNAMEParameterF293283C"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/storage/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9--storageAccess3/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyveyapsychicapplunabsandboxf8c0e883c9storageAccess3A160C02A"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/storage/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9--storageAccess4/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyveyapsychicapplunabsandboxf8c0e883c9storageAccess442C887F2"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/storage/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/storage/CDKMetadata/Condition": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadataAvailable"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/auth/amplifyAuth/UserPool/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyAuthUserPool4BA7F805"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/auth/amplifyAuth/UserPoolAppClient/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyAuthUserPoolAppClient2626C6F8"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/auth/amplifyAuth/authenticatedUserRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyAuthauthenticatedUserRoleD8DA3689"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/auth/amplifyAuth/unauthenticatedUserRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyAuthunauthenticatedUserRole2B524D9E"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/GraphQLAPI/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataGraphQLAPI42A6FA33"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/GraphQLAPI/TransformerSchema": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataGraphQLAPITransformerSchemaFF50A789"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/GraphQLAPI/NONE_DS": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "NONE_DS"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/AmplifyTableManager/reference-to-amplifyveyapsychicapplunabsandboxf8c0e883c9dataamplifyDataGraphQLAPI8A3FDA73ApiId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifyveyapsychicapplunabsandboxf8c0e883c9dataamplifyDataGraphQLAPI8A3FDA73ApiId"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/AmplifyTableManager/amplifyveyapsychicapplunabsandboxf8c0e883c9dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent102F5773Arn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyveyapsychicapplunabsandboxf8c0e883c9dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent102F5773Arn"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/AmplifyTableManager.NestedStack/AmplifyTableManager.NestedStackResource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource86290833"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/DynamoDBModelTableReadIOPS": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBModelTableReadIOPS"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/DynamoDBModelTableWriteIOPS": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBModelTableWriteIOPS"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/DynamoDBBillingMode": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBBillingMode"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/DynamoDBEnablePointInTimeRecovery": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBEnablePointInTimeRecovery"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/DynamoDBEnableServerSideEncryption": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBEnableServerSideEncryption"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/HasEnvironmentParameter": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "HasEnvironmentParameter"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/ShouldUsePayPerRequestBilling": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ShouldUsePayPerRequestBilling"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/ShouldUsePointInTimeRecovery": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ShouldUsePointInTimeRecovery"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/TodoTable": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Todo"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/CustomTableTodoTable": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Todo"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/GetAttTodoTableStreamArn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetAttTodoTableStreamArn"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/GetAttTodoTableName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetAttTodoTableName"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/TodoIAMRole": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "TodoIAMRole"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/TodoDataSource": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "TodoTable"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/queryGetTodoResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetTodoResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Query.getTodo"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/queryListTodosResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ListTodoResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Query.listTodos"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/mutationCreateTodoResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CreateTodoResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Mutation.createTodo"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/mutationUpdateTodoResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "UpdateTodoResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Mutation.updateTodo"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/mutationDeleteTodoResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DeleteTodoResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Mutation.deleteTodo"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/subscriptionOnCreateTodoResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononCreateTodoResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Subscription.onCreateTodo"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/subscriptionOnUpdateTodoResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononUpdateTodoResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Subscription.onUpdateTodo"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/subscriptionOnDeleteTodoResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononDeleteTodoResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Subscription.onDeleteTodo"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/todoOwnerResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "TodoownerResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Todo.owner"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/reference-to-amplifyveyapsychicapplunabsandboxf8c0e883c9dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource5AD62B90Outputs.amplifyveyapsychicapplunabsandboxf8c0e883c9dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent102F5773Arn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifyveyapsychicapplunabsandboxf8c0e883c9dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource5AD62B90Outputsamplifyveyapsychicapplunabsandboxf8c0e883c9dataamplifyDataAmplifyTableManagerTableManageBF7DD8B1"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/reference-to-amplifyveyapsychicapplunabsandboxf8c0e883c9dataamplifyDataGraphQLAPI8A3FDA73ApiId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifyveyapsychicapplunabsandboxf8c0e883c9dataamplifyDataGraphQLAPI8A3FDA73ApiId"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/reference-to-amplifyveyapsychicapplunabsandboxf8c0e883c9dataamplifyDataGraphQLAPINONEDS67DF6904Name": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifyveyapsychicapplunabsandboxf8c0e883c9dataamplifyDataGraphQLAPINONEDS67DF6904Name"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/reference-to-amplifyveyapsychicapplunabsandboxf8c0e883c9authNestedStackauthNestedStackResource8FB4F44AOutputs.amplifyveyapsychicapplunabsandboxf8c0e883c9authamplifyAuthauthenticatedUserRole3764DBBCRef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifyveyapsychicapplunabsandboxf8c0e883c9authNestedStackauthNestedStackResource8FB4F44AOutputsamplifyveyapsychicapplunabsandboxf8c0e883c9authamplifyAuthauthenticatedUserRole3764DBBCRef"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/reference-to-amplifyveyapsychicapplunabsandboxf8c0e883c9authNestedStackauthNestedStackResource8FB4F44AOutputs.amplifyveyapsychicapplunabsandboxf8c0e883c9authamplifyAuthunauthenticatedUserRole01BB3B1FRef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifyveyapsychicapplunabsandboxf8c0e883c9authNestedStackauthNestedStackResource8FB4F44AOutputsamplifyveyapsychicapplunabsandboxf8c0e883c9authamplifyAuthunauthenticatedUserRole01BB3B1FRef"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/reference-to-amplifyveyapsychicapplunabsandboxf8c0e883c9authNestedStackauthNestedStackResource8FB4F44AOutputs.amplifyveyapsychicapplunabsandboxf8c0e883c9authamplifyAuthIdentityPoolE1E06F9CRef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifyveyapsychicapplunabsandboxf8c0e883c9authNestedStackauthNestedStackResource8FB4F44AOutputsamplifyveyapsychicapplunabsandboxf8c0e883c9authamplifyAuthIdentityPoolE1E06F9CRef"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo.NestedStack/Todo.NestedStackResource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataTodoNestedStackTodoNestedStackResource551CEA56"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBServiceRoleA41FC8C2"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/modelIntrospectionSchemaBucket/Policy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "modelIntrospectionSchemaBucketPolicy4DAB0D15"
+    },
+    {
+      "type": "aws:cdk:analytics:mixin",
+      "data": {
+        "mixin": "aws-cdk-lib.aws_s3.mixins.BucketPolicyStatements"
+      }
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/modelIntrospectionSchemaBucket/AutoDeleteObjectsCustomResource/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "modelIntrospectionSchemaBucketAutoDeleteObjectsCustomResourceFE57309F"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/modelIntrospectionSchemaBucketDeployment/AwsCliLayer/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "modelIntrospectionSchemaBucketDeploymentAwsCliLayer13C432F7"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/modelIntrospectionSchemaBucketDeployment/CustomResource-1536MiB/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "modelIntrospectionSchemaBucketDeploymentCustomResource1536MiB104B97EC"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/storage/veyaDrive/Bucket/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "veyaDriveBucketB1B1708A"
+    },
+    {
+      "type": "aws:cdk:analytics:mixin",
+      "data": {
+        "mixin": "aws-cdk-lib.aws_s3.mixins.BucketAutoDeleteObjects"
+      }
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/GraphQLAPI/NONE_DS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataGraphQLAPINONEDS684BF699"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "NONE_DS"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/AmplifyTableManager/AmplifyManagedTableIsCompleteRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AmplifyManagedTableIsCompleteRoleF825222C"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/AmplifyTableManager/AmplifyManagedTableOnEventRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AmplifyManagedTableOnEventRoleB4E71DEA"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/AmplifyTableManager/AmplifyTableWaiterStateMachine/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AmplifyTableWaiterStateMachine060600BC"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/AmplifyTableManager/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/AmplifyTableManager/CDKMetadata/Condition": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadataAvailable"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/TodoIAMRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "TodoIAMRole2DA8E66E"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "TodoIAMRole"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/TodoDataSource/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "TodoDataSource"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "TodoTable"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/QuerygetTodoauth0Function/QuerygetTodoauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerygetTodoauth0FunctionQuerygetTodoauth0FunctionAppSyncFunction846D8436"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerygetTodoauth0Function"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/QuerygetTodopostAuth0Function/QuerygetTodopostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerygetTodopostAuth0FunctionQuerygetTodopostAuth0FunctionAppSyncFunction6BE14593"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerygetTodopostAuth0Function"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/QueryGetTodoDataResolverFn/QueryGetTodoDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryGetTodoDataResolverFnQueryGetTodoDataResolverFnAppSyncFunctionE2B57DAD"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QueryGetTodoDataResolverFn"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/QuerylistTodosauth0Function/QuerylistTodosauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerylistTodosauth0FunctionQuerylistTodosauth0FunctionAppSyncFunction7D761961"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerylistTodosauth0Function"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/QuerylistTodospostAuth0Function/QuerylistTodospostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerylistTodospostAuth0FunctionQuerylistTodospostAuth0FunctionAppSyncFunction154D8577"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerylistTodospostAuth0Function"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/QueryListTodosDataResolverFn/QueryListTodosDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryListTodosDataResolverFnQueryListTodosDataResolverFnAppSyncFunctionF825FE47"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QueryListTodosDataResolverFn"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/MutationcreateTodoinit0Function/MutationcreateTodoinit0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationcreateTodoinit0FunctionMutationcreateTodoinit0FunctionAppSyncFunction54DE5B8B"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationcreateTodoinit0Function"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/MutationcreateTodoauth0Function/MutationcreateTodoauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationcreateTodoauth0FunctionMutationcreateTodoauth0FunctionAppSyncFunction21817E36"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationcreateTodoauth0Function"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/MutationcreateTodopostAuth0Function/MutationcreateTodopostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationcreateTodopostAuth0FunctionMutationcreateTodopostAuth0FunctionAppSyncFunctionED59EB9F"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationcreateTodopostAuth0Function"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/MutationCreateTodoDataResolverFn/MutationCreateTodoDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationCreateTodoDataResolverFnMutationCreateTodoDataResolverFnAppSyncFunction900EC5CF"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationCreateTodoDataResolverFn"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/MutationupdateTodoinit0Function/MutationupdateTodoinit0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationupdateTodoinit0FunctionMutationupdateTodoinit0FunctionAppSyncFunction1B95BB19"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationupdateTodoinit0Function"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/MutationupdateTodoauth0Function/MutationupdateTodoauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationupdateTodoauth0FunctionMutationupdateTodoauth0FunctionAppSyncFunction1E4A3112"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationupdateTodoauth0Function"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/MutationupdateTodopostAuth0Function/MutationupdateTodopostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationupdateTodopostAuth0FunctionMutationupdateTodopostAuth0FunctionAppSyncFunction50C507D7"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationupdateTodopostAuth0Function"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/MutationUpdateTodoDataResolverFn/MutationUpdateTodoDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationUpdateTodoDataResolverFnMutationUpdateTodoDataResolverFnAppSyncFunctionBC238C49"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationUpdateTodoDataResolverFn"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/MutationdeleteTodoauth0Function/MutationdeleteTodoauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationdeleteTodoauth0FunctionMutationdeleteTodoauth0FunctionAppSyncFunctionC82C218C"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationdeleteTodoauth0Function"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/MutationdeleteTodopostAuth0Function/MutationdeleteTodopostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationdeleteTodopostAuth0FunctionMutationdeleteTodopostAuth0FunctionAppSyncFunction483271A2"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationdeleteTodopostAuth0Function"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/MutationDeleteTodoDataResolverFn/MutationDeleteTodoDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationDeleteTodoDataResolverFnMutationDeleteTodoDataResolverFnAppSyncFunction3879153F"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationDeleteTodoDataResolverFn"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/SubscriptiononCreateTodoauth0Function/SubscriptiononCreateTodoauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononCreateTodoauth0FunctionSubscriptiononCreateTodoauth0FunctionAppSyncFunction042EF9E1"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononCreateTodoauth0Function"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/SubscriptiononCreateTodopostAuth0Function/SubscriptiononCreateTodopostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononCreateTodopostAuth0FunctionSubscriptiononCreateTodopostAuth0FunctionAppSyncFunction18E34C4E"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononCreateTodopostAuth0Function"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/SubscriptionOnCreateTodoDataResolverFn/SubscriptionOnCreateTodoDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptionOnCreateTodoDataResolverFnSubscriptionOnCreateTodoDataResolverFnAppSyncFunction462A70C9"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptionOnCreateTodoDataResolverFn"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/SubscriptiononUpdateTodoauth0Function/SubscriptiononUpdateTodoauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononUpdateTodoauth0FunctionSubscriptiononUpdateTodoauth0FunctionAppSyncFunction80D0DFA3"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononUpdateTodoauth0Function"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/SubscriptiononUpdateTodopostAuth0Function/SubscriptiononUpdateTodopostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononUpdateTodopostAuth0FunctionSubscriptiononUpdateTodopostAuth0FunctionAppSyncFunction04445BC7"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononUpdateTodopostAuth0Function"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/SubscriptionOnUpdateTodoDataResolverFn/SubscriptionOnUpdateTodoDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptionOnUpdateTodoDataResolverFnSubscriptionOnUpdateTodoDataResolverFnAppSyncFunction523DF0E4"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptionOnUpdateTodoDataResolverFn"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/SubscriptiononDeleteTodoauth0Function/SubscriptiononDeleteTodoauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononDeleteTodoauth0FunctionSubscriptiononDeleteTodoauth0FunctionAppSyncFunctionF69F2220"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononDeleteTodoauth0Function"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/SubscriptiononDeleteTodopostAuth0Function/SubscriptiononDeleteTodopostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononDeleteTodopostAuth0FunctionSubscriptiononDeleteTodopostAuth0FunctionAppSyncFunctionE131CBE7"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononDeleteTodopostAuth0Function"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/SubscriptionOnDeleteTodoDataResolverFn/SubscriptionOnDeleteTodoDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptionOnDeleteTodoDataResolverFnSubscriptionOnDeleteTodoDataResolverFnAppSyncFunction3E641E8C"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptionOnDeleteTodoDataResolverFn"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/TodoOwnerDataResolverFn/TodoOwnerDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "TodoOwnerDataResolverFnTodoOwnerDataResolverFnAppSyncFunction0C7BF45B"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "TodoOwnerDataResolverFn"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/CDKMetadata/Condition": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadataAvailable"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucket9CCB4ACA"
+    },
+    {
+      "type": "aws:cdk:analytics:mixin",
+      "data": {
+        "mixin": "aws-cdk-lib.aws_s3.mixins.BucketAutoDeleteObjects"
+      }
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/ServiceRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBServiceRoleDefaultPolicyFF1C635B"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/storage/veyaDrive/Bucket/Policy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "veyaDriveBucketPolicy4C11580D"
+    },
+    {
+      "type": "aws:cdk:analytics:mixin",
+      "data": {
+        "mixin": "aws-cdk-lib.aws_s3.mixins.BucketPolicyStatements"
+      }
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/storage/veyaDrive/Bucket/AutoDeleteObjectsCustomResource/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "veyaDriveBucketAutoDeleteObjectsCustomResource5C809403"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/AmplifyTableManager/AmplifyManagedTableOnEventRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AmplifyManagedTableOnEventRoleDefaultPolicyF6DABCB6"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider/framework-onEvent/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "TableManagerCustomProviderframeworkonEvent1DFC2ECC"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider/framework-isComplete/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "TableManagerCustomProviderframeworkisComplete2E51021B"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/AmplifyTableManager/AmplifyTableWaiterStateMachine/Role/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AmplifyTableWaiterStateMachineRole470BE899"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/Todo/TodoTable/Default/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "TodoTable"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Todo"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/Policy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucketPolicyF1C1C548"
+    },
+    {
+      "type": "aws:cdk:analytics:mixin",
+      "data": {
+        "mixin": "aws-cdk-lib.aws_s3.mixins.BucketPolicyStatements"
+      }
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/AutoDeleteObjectsCustomResource/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucketAutoDeleteObjectsCustomResource437F26F5"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsDeployment/AwsCliLayer/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentAwsCliLayerE322F905"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsDeployment/CustomResource-1536MiB/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiB21775929"
+    }
+  ],
+  "/amplify-veyapsychicapp-lunab-sandbox-f8c0e883c9/data/amplifyData/AmplifyTableManager/AmplifyTableWaiterStateMachine/Role/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AmplifyTableWaiterStateMachineRoleDefaultPolicy89F3836A"
+    }
+  ]
+}
