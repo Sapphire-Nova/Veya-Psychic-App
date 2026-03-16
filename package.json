@@ -12,6 +12,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@aws-amplify/ui-react": "^6.15.2",
     "@base44/sdk": "^0.8.0",
     "@base44/vite-plugin": "^1.0.0",
     "@dataconnect/generated": "file:src/dataconnect-generated",
