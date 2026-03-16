@@ -1,0 +1,6 @@
+{
+  "cards": [
+    { "name": "The Fool", "meaning": "New beginnings, optimism, and trust in the universe.", "image": "TheFool.png" },
+    { "name": "The Magician", "meaning": "Manifestation, resourcefulness, and inspired action.", "image": "TheMagician.png" }
+  ]
+}

@@ -74,7 +74,7 @@ import Meditations from './pages/Meditations';
 import Messages from './pages/Messages';
 import MyJourney from './pages/MyJourney';
 import ProtectionGuides from './pages/ProtectionGuides';
-import Sanctuary from './pages/Sanctuary';
+import Sanctuary from './pages/Login';
 import Services from './pages/Services';
 import SessionDetail from './pages/SessionDetail';
 import SoulPathQuiz from './pages/SoulPathQuiz';
