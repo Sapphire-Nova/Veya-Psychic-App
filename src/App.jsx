@@ -7,6 +7,8 @@ import Meditations from './pages/Meditations';
 import ChakraQuiz from './components/ChakraQuiz';
 import LearnLibrary from './components/LearnLibrary';
 import Sanctuary from './pages/Sanctuary';
+import Community from './components/Community';
+import Booking from './pages/Booking';
 import Login from './pages/Login';
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
         <Route path="/Services" element={<BookReading />} />
         <Route path="/Tools/ChakraCheck" element={<ChakraQuiz />} />
         <Route path="/Chakra-Guide" element={<LearnLibrary />} />
+        <Route path="/Community" element={<Community />} />
+        <Route path="/Schedule" element={<Booking />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/Sanctuary" element={<Sanctuary />} />
       </Routes>
