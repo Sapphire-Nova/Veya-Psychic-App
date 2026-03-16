@@ -1,25 +1,32 @@
-{
-  "name": "npx-ampx-sandbox",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+﻿{
+  "name": "veya-psychic-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "devDependencies": {
-    "@aws-amplify/backend": "^1.21.1",
-    "@aws-amplify/backend-cli": "^1.8.2",
-    "aws-cdk-lib": "^2.234.1",
-    "constructs": "^10.5.1",
-    "esbuild": "^0.27.4",
-    "tsx": "^4.21.0",
-    "typescript": "^5.9.3"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "aws-amplify": "^6.16.3"
+    "@aws-amplify/ui-react": "^6.1.13",
+    "aws-amplify": "^6.0.26",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3"
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.0.1",
+    "@aws-amplify/backend-cli": "^1.0.2",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.2",
+    "vite": "^5.2.0"
   }
 }
