@@ -1,23 +1,16 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  background-color: black;
-  color: white;
-}
-
-body {
+﻿body, html {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-  background: black;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* This stops the left-to-right scroll */
+  background-color: #000;
 }
 
-/* Force our navbar to ignore any weird center-stacking */
-nav {
-  display: flex !important;
-  flex-direction: row !important;
+#root {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
 }

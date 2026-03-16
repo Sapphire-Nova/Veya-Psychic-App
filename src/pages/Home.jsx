@@ -67,7 +67,7 @@ const Home = () => {
         <div style={{ position: 'relative', display: 'inline-block' }}>
           <div style={{ position: 'absolute', inset: -5, background: 'linear-gradient(gold, transparent)', borderRadius: '35px', filter: 'blur(10px)', opacity: 0.5 }}></div>
           <img 
-            src="https://via.placeholder.com/400" 
+            src="https://meditationvaultcali.s3.us-west-1.amazonaws.com/itsjust+pictures+of+me/me.png" 
             alt="Violet" 
             style={{ position: 'relative', maxHeight: '320px', borderRadius: '30px', border: '2px solid #FFD700' }} 
           />
@@ -88,3 +88,4 @@ const Home = () => {
 };
 
 export default Home;
+
