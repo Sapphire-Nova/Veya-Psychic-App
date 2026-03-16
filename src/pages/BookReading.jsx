@@ -1,69 +1,62 @@
-﻿import React, { useState } from 'react';
+﻿import React, { useEffect } from 'react';
 
 const BookReading = () => {
-  const [showConnect, setShowConnect] = useState(false);
+  // We need to load the Stripe script when the page opens
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = "https://js.stripe.com/v3/buy-button.js";
+    script.async = true;
+    document.body.appendChild(script);
+  }, []);
 
-  const services = [
-    { 
-      title: "Full Psychic Reading", 
-      price: "", 
-      desc: "Comprehensive deep-dive into your energy. Includes photos of spreads and detailed message guidance.",
-      stripeUrl: "https://buy.stripe.com/8x200c8bE6Bh4C7eY2" 
-    },
-    { 
-      title: "Astrological Life Path", 
-      price: "", 
-      desc: "Requires DOB, Time, and Place. Receive a 4-6 page PDF on your soul contracts and personality traits.",
-      stripeUrl: "https://buy.stripe.com/8x200c8bE6Bh4C7eY2" 
-    }
-  ];
+  const stripeKey = "pk_live_51T9HLg5w4AWvPvWAuDNFrKbZ9xQrCigIKwkUPV9DBrxBdkHj5HN31rs3gfzNY3vCeFOs09nXyQFO8pnitK1ALUZ600d7LtBW2s";
 
   return (
-    <div style={{ backgroundColor: '#121212', color: 'white', minHeight: '100vh', padding: '40px 20px' }}>
+    <div style={{ backgroundColor: '#0f172a', color: 'white', minHeight: '100vh', padding: '40px 20px', paddingBottom: '120px' }}>
       <header style={{ textAlign: 'center', marginBottom: '50px' }}>
-        <h1 style={{ color: '#FFD700', fontSize: '2.5rem' }}>Sacred Services</h1>
-        <p style={{ color: '#ccc' }}>Illuminate your path with ancient wisdom and modern clarity.</p>
+        <h1 style={{ color: '#FFD700', textShadow: '0 0 10px rgba(255,215,0,0.3)' }}>Sacred Offerings</h1>
+        <p style={{ color: '#cbd5e1' }}>Choose the guidance that resonates with your soul's journey.</p>
       </header>
 
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '30px', maxWidth: '1000px', margin: '0 auto' }}>
-        {services.map((service, i) => (
-          <div key={i} style={{ border: '1px solid #333', padding: '30px', borderRadius: '20px', backgroundColor: '#1a1a1a', textAlign: 'center' }}>
-            <h3 style={{ color: '#FFD700' }}>{service.title}</h3>
-            <p style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>{service.price}</p>
-            <p style={{ color: '#aaa', minHeight: '60px' }}>{service.desc}</p>
-            <button 
-              onClick={() => window.location.href = service.stripeUrl}
-              style={{ backgroundColor: '#FFD700', color: 'black', padding: '12px 30px', border: 'none', borderRadius: '50px', fontWeight: 'bold', cursor: 'pointer', marginTop: '20px' }}
-            >
-              Book Now
-            </button>
-          </div>
-        ))}
-      </div>
-
-      {/* Connect with Violet Button */}
-      <div style={{ textAlign: 'center', marginTop: '60px' }}>
-        <button 
-          onClick={() => setShowConnect(true)}
-          style={{ backgroundColor: 'transparent', color: '#FFD700', border: '2px solid #FFD700', padding: '15px 40px', borderRadius: '50px', fontSize: '1.2rem', cursor: 'pointer' }}
-        >
-          Connect with Violet Now!
-        </button>
-      </div>
-
-      {/* Instant Message Popup */}
-      {showConnect && (
-        <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: 'rgba(0,0,0,0.8)', zIndex: 1000, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-          <div style={{ backgroundColor: '#1a1a1a', padding: '40px', borderRadius: '20px', maxWidth: '500px', width: '90%', border: '1px solid #FFD700' }}>
-            <button onClick={() => setShowConnect(false)} style={{ float: 'right', color: 'white', background: 'none', border: 'none', fontSize: '20px', cursor: 'pointer' }}>X</button>
-            <h3 style={{ color: '#FFD700' }}>Instant Connection</h3>
-            <p style={{ color: '#ccc' }}>Please share your first name and names of anyone involved.</p>
-            <textarea placeholder="Your message here..." style={{ width: '100%', height: '100px', margin: '15px 0', padding: '10px', borderRadius: '10px', backgroundColor: '#333', color: 'white', border: 'none' }}></textarea>
-            <input type="file" style={{ color: '#ccc', marginBottom: '15px' }} />
-            <button style={{ width: '100%', backgroundColor: '#FFD700', padding: '15px', border: 'none', borderRadius: '10px', fontWeight: 'bold' }}>Send Message (3 Luna Credits)</button>
-          </div>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '30px', maxWidth: '1200px', margin: '0 auto' }}>
+        
+        {/* Full Tarot Reading */}
+        <div style={{ background: '#1e1b4b', padding: '30px', borderRadius: '25px', border: '1px solid #FFD700', textAlign: 'center' }}>
+          <h3 style={{ color: '#FFD700' }}>Full Tarot Reading</h3>
+          <p style={{ fontSize: '1.5rem', margin: '10px 0' }}></p>
+          <p style={{ fontSize: '0.9rem', color: '#94a3b8', marginBottom: '20px' }}>Comprehensive tarot spread revealing energies surrounding your path and relationships.</p>
+          <stripe-buy-button buy-button-id="buy_btn_1TBTol5w4AWvPvWAXVnnfosS" publishable-key={stripeKey}></stripe-buy-button>
         </div>
-      )}
+
+        {/* Mediumship Reading */}
+        <div style={{ background: '#1e1b4b', padding: '30px', borderRadius: '25px', border: '1px solid #FFD700', textAlign: 'center' }}>
+          <h3 style={{ color: '#FFD700' }}>Mediumship Reading</h3>
+          <p style={{ fontSize: '1.5rem', margin: '10px 0' }}></p>
+          <p style={{ fontSize: '0.9rem', color: '#94a3b8', marginBottom: '20px' }}>Connect with loved ones who have crossed over. Receive messages, healing, and closure.</p>
+          <stripe-buy-button buy-button-id="buy_btn_1TBTpu5w4AWvPvWAlMHxqA49" publishable-key={stripeKey}></stripe-buy-button>
+        </div>
+
+        {/* Distant Reiki */}
+        <div style={{ background: '#1e1b4b', padding: '30px', borderRadius: '25px', border: '1px solid #FFD700', textAlign: 'center' }}>
+          <h3 style={{ color: '#FFD700' }}>Distant Reiki Healing</h3>
+          <p style={{ fontSize: '1.5rem', margin: '10px 0' }}></p>
+          <p style={{ fontSize: '0.9rem', color: '#94a3b8', marginBottom: '20px' }}>Distant energy healing to clear blockages, restore balance, and activate natural healing.</p>
+          <stripe-buy-button buy-button-id="buy_btn_1TBTr45w4AWvPvWAV0UnAuNT" publishable-key={stripeKey}></stripe-buy-button>
+        </div>
+
+        {/* Astrological Life Path (Special Request) */}
+        <div style={{ background: 'rgba(255,215,0,0.05)', padding: '30px', borderRadius: '25px', border: '1px dashed #FFD700', textAlign: 'center' }}>
+          <h3 style={{ color: '#FFD700' }}>Astrological Life Path</h3>
+          <p style={{ fontSize: '0.9rem', color: '#cbd5e1', marginBottom: '20px' }}>Special Request Only: A deep-dive 4-6 page PDF analysis of your soul contracts.</p>
+          <button 
+            onClick={() => window.location.href='/Violet-Admin-Portal'} 
+            style={{ width: '100%', padding: '15px', borderRadius: '10px', backgroundColor: 'transparent', color: '#FFD700', border: '1px solid #FFD700', fontWeight: 'bold', cursor: 'pointer' }}
+          >
+            Message Violet to Request
+          </button>
+        </div>
+
+      </div>
     </div>
   );
 };
