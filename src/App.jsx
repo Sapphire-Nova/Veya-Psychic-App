@@ -5,19 +5,19 @@ import Home from './pages/Home';
 import BookReading from './pages/BookReading';
 import Meditations from './pages/Meditations';
 import ChakraQuiz from './components/ChakraQuiz';
-import ChakraLibrary from './components/ChakraLibrary';
+import LearnLibrary from './components/LearnLibrary';
 import Login from './pages/Login';
 
 function App() {
   return (
-    <div style={{ paddingBottom: '80px' }}> {/* Space for the bottom navbar */}
+    <div style={{ paddingBottom: '80px' }}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Meditations" element={<Meditations />} />
         <Route path="/Services" element={<BookReading />} />
         <Route path="/Book-a-Reading" element={<BookReading />} />
         <Route path="/Tools/ChakraCheck" element={<ChakraQuiz />} />
-        <Route path="/Chakra-Guide" element={<ChakraLibrary />} />
+        <Route path="/Chakra-Guide" element={<LearnLibrary />} />
         <Route path="/Login" element={<Login />} />
       </Routes>
       <Navbar />
