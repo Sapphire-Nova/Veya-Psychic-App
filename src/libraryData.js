@@ -1,31 +1,41 @@
 ﻿export const masterData = {
-  Zodiac: [
-    { name: "Aries", dates: "Mar 21 - Apr 19", traits: "Bold, Pioneering", strengths: "Courage, Passion", weaknesses: "Impatience", display: "♈" },
-    { name: "Taurus", dates: "Apr 20 - May 20", traits: "Steady, Sensual", strengths: "Reliability, Patience", weaknesses: "Stubbornness", display: "♉" },
-    { name: "Gemini", dates: "May 21 - Jun 20", traits: "Curious, Social", strengths: "Adaptability", weaknesses: "Indecisive", display: "♊" },
-    { name: "Cancer", dates: "Jun 21 - Jul 22", traits: "Nurturing, Intuitive", strengths: "Loyalty", weaknesses: "Moodiness", display: "♋" },
-    { name: "Leo", dates: "Jul 23 - Aug 22", traits: "Radiant, Leader", strengths: "Generosity", weaknesses: "Arrogance", display: "♌" },
-    { name: "Virgo", dates: "Aug 23 - Sep 22", traits: "Practical, Analytical", strengths: "Hardworking", weaknesses: "Worry", display: "♍" },
-    { name: "Libra", dates: "Sep 23 - Oct 22", traits: "Harmonious", strengths: "Fairness", weaknesses: "Indecisive", display: "♎" },
-    { name: "Scorpio", dates: "Oct 23 - Nov 21", traits: "Intense", strengths: "Brave", weaknesses: "Distrusting", display: "♏" },
-    { name: "Sagittarius", dates: "Nov 22 - Dec 21", traits: "Adventurous", strengths: "Optimism", weaknesses: "Impatient", display: "♐" },
-    { name: "Capricorn", dates: "Dec 22 - Jan 19", traits: "Disciplined", strengths: "Responsible", weaknesses: "Unforgiving", display: "♑" },
-    { name: "Aquarius", dates: "Jan 20 - Feb 18", traits: "Innovative", strengths: "Originality", weaknesses: "Aloof", display: "♒" },
-    { name: "Pisces", dates: "Feb 19 - Mar 20", traits: "Dreamy", strengths: "Intuitive", weaknesses: "Fearful", display: "♓" }
-  ],
   Crystals: [
-    { name: "Rose Quartz", img: "https://crystalphotosforveya.s3.us-east-2.amazonaws.com/Crystals/rose+quartz/rose-quartz-crystals-isolate-black-background_332246-47.avif", traits: "Unconditional Love", element: "Water", chakra: "Heart", properties: "Healing emotional wounds, attracting love, self-compassion." },
-    { name: "Selenite", img: "https://crystalphotosforveya.s3.us-east-2.amazonaws.com/Crystals/selenite/lamp-raw-selenite-mineral-double-spiral-lamp-air-purifying-home-decor-146343.webp", traits: "Divine Clarity", element: "Air", chakra: "Crown", properties: "Clearing aura, charging other crystals." }
+    { name: "Rose Quartz", img: "rose-quartz.jpg", traits: "Unconditional Love", element: "Water", chakra: "Heart", properties: "Healing emotional wounds, attracting love, and encouraging self-forgiveness." },
+    { name: "Amethyst", img: "amethyst.jpg", traits: "Spiritual Protection", element: "Air/Ether", chakra: "Third Eye", properties: "Calming the mind, enhancing intuition, and protecting against psychic attack." },
+    { name: "Selenite", img: "selenite.jpg", traits: "Divine Clarity", element: "Air", chakra: "Crown", properties: "Clearing aura, charging other crystals, and connecting with higher realms." },
+    { name: "Black Tourmaline", img: "black-tourmaline.jpg", traits: "Grounding", element: "Earth", chakra: "Root", properties: "Shielding from negative energy and EMF protection." }
   ],
   Herbs: [
-    { name: "Lavender", img: "https://crystalphotosforveya.s3.us-east-2.amazonaws.com/Herbs/lavender/Untitled.png", traits: "Peace & Purification", folklore: "Used since ancient Rome to scent baths.", magical: "Sleep, longevity, and happiness." },
-    { name: "Mugwort", img: "https://crystalphotosforveya.s3.us-east-2.amazonaws.com/Herbs/mugwortherb/mugwort.png", traits: "Intuition & Dreams", folklore: "Placed in shoes to prevent weariness.", magical: "Lucid dreaming and protection." }
-  ],
-  Chakras: [
-    { name: "Root", traits: "Grounding", underactive: "Fear, anxiety, feeling unsettled", overactive: "Greed, paranoia", affirmation: "I am safe and grounded.", display: "🔴" },
-    { name: "Heart", traits: "Love", underactive: "Isolation, lack of empathy", overactive: "Possessiveness", affirmation: "I am worthy of love.", display: "🟢" }
+    { name: "Lavender", img: "lavender.jpg", traits: "Peace & Purification", folklore: "Used since ancient Rome in baths to purify the spirit.", magical: "Promotes peaceful sleep, longevity, and calmness during rituals." },
+    { name: "Sage", img: "sage.jpg", traits: "Wisdom & Cleansing", folklore: "Believed by ancients to grant long life and wisdom.", magical: "Used for smudging to clear negative energy and protection." },
+    { name: "Chamomile", img: "chamomile.jpg", traits: "Abundance & Sleep", folklore: "Known as the 'Plant's Physician' for helping nearby plants grow.", magical: "Attracting wealth and inducing prophetic dreams." }
   ],
   Tarot: [
-    { name: "The Magician", img: "https://via.placeholder.com/150", traits: "Manifestation", upright: "Power, skill, action.", reversed: "Manipulation, untapped talents." }
+    { name: "The Fool", img: "the-fool.jpg", display: "0", meaning: "New beginnings, optimism, and trust in the universe." },
+    { name: "The Magician", img: "the-magician.jpg", display: "I", meaning: "Manifestation, resourcefulness, and inspired action." },
+    { name: "The High Priestess", img: "the-high-priestess.jpg", display: "II", meaning: "Intuition, sacred knowledge, and the subconscious mind." }
+  ],
+  Zodiac: [
+    { name: "Aries", display: "♈", dates: "Mar 21 - Apr 19", strengths: "Courageous, determined, confident", weaknesses: "Impatient, moody, short-tempered" },
+    { name: "Taurus", display: "♉", dates: "Apr 20 - May 20", strengths: "Reliable, patient, practical", weaknesses: "Stubborn, possessive, uncompromising" },
+    { name: "Gemini", display: "♊", dates: "May 21 - June 20", strengths: "Gentle, affectionate, curious", weaknesses: "Nervous, inconsistent, indecisive" },
+    { name: "Cancer", display: "♋", dates: "June 21 - July 22", strengths: "Tenacious, highly imaginative, loyal", weaknesses: "Moody, pessimistic, suspicious" },
+    { name: "Leo", display: "♌", dates: "July 23 - Aug 22", strengths: "Creative, passionate, generous", weaknesses: "Arrogant, stubborn, self-centered" },
+    { name: "Virgo", display: "♍", dates: "Aug 23 - Sept 22", strengths: "Loyal, analytical, kind", weaknesses: "Shyness, worry, overly critical" },
+    { name: "Libra", display: "♎", dates: "Sept 23 - Oct 22", strengths: "Cooperative, diplomatic, gracious", weaknesses: "Indecisive, avoids confrontations" },
+    { name: "Scorpio", display: "♏", dates: "Oct 23 - Nov 21", strengths: "Resourceful, brave, passionate", weaknesses: "Distrusting, jealous, secretive" },
+    { name: "Sagittarius", display: "♐", dates: "Nov 22 - Dec 21", strengths: "Generous, idealistic, great sense of humor", weaknesses: "Promises more than can deliver, very impatient" },
+    { name: "Capricorn", display: "♑", dates: "Dec 22 - Jan 19", strengths: "Responsible, disciplined, self-control", weaknesses: "Know-it-all, unforgiving, condescending" },
+    { name: "Aquarius", display: "♒", dates: "Jan 20 - Feb 18", strengths: "Progressive, original, independent", weaknesses: "Runs from emotional expression, temperamental" },
+    { name: "Pisces", display: "♓", dates: "Feb 19 - Mar 20", strengths: "Compassionate, artistic, intuitive", weaknesses: "Fearful, overly trusting, sad" }
+  ],
+  Chakras: [
+    { name: "Root", img: "root-chakra.jpg", display: "🔴", underactive: "Fear, anxiety", overactive: "Greed, hoarding", affirmation: "I am safe, grounded, and secure." },
+    { name: "Sacral", img: "sacral-chakra.jpg", display: "🟠", underactive: "Lack of creativity", overactive: "Overly emotional", affirmation: "I am creative and open to new experiences." },
+    { name: "Solar Plexus", img: "solar-plexus-chakra.jpg", display: "🟡", underactive: "Low self-esteem", overactive: "Dominating", affirmation: "I am confident and powerful." },
+    { name: "Heart", img: "heart-chakra.jpg", display: "🟢", underactive: "Coldness", overactive: "Suffocating love", affirmation: "I am worthy of love and give it freely." },
+    { name: "Throat", img: "throat-chakra.jpg", display: "🔵", underactive: "Difficulty speaking truth", overactive: "Gossip", affirmation: "I speak my truth clearly." },
+    { name: "Third Eye", img: "third-eye-chakra.jpg", display: "🟣", underactive: "Poor intuition", overactive: "Nightmares", affirmation: "I trust my intuition." },
+    { name: "Crown", img: "crown-chakra.jpg", display: "⚪", underactive: "Disconnection", overactive: "Intellectualism", affirmation: "I am connected to the divine." }
   ]
 };

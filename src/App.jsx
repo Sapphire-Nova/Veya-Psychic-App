@@ -1,10 +1,10 @@
 ﻿import React from 'react';
-import { Authenticator, ThemeProvider, Theme } from '@aws-amplify/ui-react';
+import { Authenticator, ThemeProvider } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css';
 import LearnLibrary from './components/LearnLibrary';
 
-// Veya Brand Colors
-const veyaTheme: Theme = {
+// Veya Brand Colors - Standard JavaScript Version
+const veyaTheme = {
   name: 'veya-mystic-theme',
   tokens: {
     colors: {
@@ -12,13 +12,13 @@ const veyaTheme: Theme = {
         primary: { value: '#0a0a2e' }, // Deep Indigo
       },
       font: {
-        interactive: { value: '#FFD700' }, // Gold for links/buttons
+        interactive: { value: '#FFD700' }, // Gold
       },
       brand: {
         primary: {
           10: { value: '#1e1b4b' },
-          80: { value: '#FFD700' }, // Primary Gold
-          100: { value: '#E6C200' }, // Hover Gold
+          80: { value: '#FFD700' },
+          100: { value: '#E6C200' },
         },
       },
     },

@@ -14,6 +14,12 @@ customHeaders:
       - key: 'Cache-Control'
         value: 'public, max-age=0, must-revalidate'
 
+  # Ensure the live-status manifest or config doesn't cache
+  - pattern: '/live-status.json'
+    headers:
+      - key: 'Cache-Control'
+        value: 'no-store, no-cache, must-revalidate, proxy-revalidate'
+        
   - pattern: '/**/*.@(jpg|jpeg|gif|png|svg|ico|webp|mp3|wav)'
     headers:
       - key: 'Cache-Control'
