@@ -1,4 +1,5 @@
-﻿import React, { useState } from 'react';
+import NextMoonEvent from './components/NextMoonEvent';
+import React, { useState } from 'react';
 import { Authenticator, ThemeProvider } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css';
 import CelestialHeader from './components/CelestialHeader';
@@ -31,6 +32,7 @@ function App() {
         {({ signOut, user }) => (
           <main style={{ backgroundColor: '#000', minHeight: '100vh', color: 'white' }}>
             <CelestialHeader isLive={isVioletLive} onSignOut={signOut} />
+          <NextMoonEvent />
             
             <div style={{ padding: '20px' }}>
               <h2 style={{ color: '#FFD700', fontFamily: 'serif', textAlign: 'center' }}>Welcome, Seeker {user?.username}</h2>
@@ -48,3 +50,4 @@ function App() {
 }
 
 export default App;
+
