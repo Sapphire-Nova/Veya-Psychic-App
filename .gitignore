@@ -28,3 +28,15 @@ dist-ssr
 *.sw?
 
 .env
+# --- Build output ---
+dist/
+node_modules/
+
+# --- Amplify Gen 2 local artifacts (do not commit) ---
+.amplify/
+
+# amplify_outputs.json is environment-dependent / generated in CI
+amplify_outputs.json
+
+# --- Your local backup files created during repair ---
+*.bak_*
