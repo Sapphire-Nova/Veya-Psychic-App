@@ -1,67 +1,29 @@
-﻿import React, { useState } from 'react';
-import { masterData } from '../libraryData';
+import React from 'react';
+import { getAssetUrl } from '../services/assetService';
 
-const LearnLibrary = () => {
-  const [activeTab, setActiveTab] = useState('Crystals');
-  const [selectedItem, setSelectedItem] = useState(null);
-
+const LearnLibrary = ({ category = "Crystals", items = [] }) => {
   return (
-    <div style={{ padding: '20px', backgroundColor: '#000', color: 'white', minHeight: '100vh', paddingBottom: '120px' }}>
-      {/* Tab Navigation */}
-      <div style={{ display: 'flex', overflowX: 'auto', gap: '10px', marginBottom: '20px', padding: '10px 0' }}>
-        {Object.keys(masterData).map(tab => (
-          <button key={tab} onClick={() => setActiveTab(tab)} style={{ 
-            background: activeTab === tab ? '#FFD700' : '#1e1b4b', 
-            color: activeTab === tab ? 'black' : 'white', 
-            border: '1px solid #FFD700', 
-            padding: '10px 20px', 
-            borderRadius: '20px', 
-            fontWeight: 'bold',
-            whiteSpace: 'nowrap'
-          }}>{tab}</button>
-        ))}
-      </div>
-
-      {/* Grid Layout */}
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '15px' }}>
-        {masterData[activeTab]?.map((item) => (
-          <div key={item.name} onClick={() => setSelectedItem(item)} style={{ 
-            backgroundColor: '#1e1b4b', 
-            borderRadius: '15px', 
-            border: '1px solid #312e81', 
-            overflow: 'hidden' 
-          }}>
-            <div style={{ height: '120px', background: '#000', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-              {item.img ? (
-                <img src={item.img} alt={item.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-              ) : (
-                <span style={{ fontSize: '3rem' }}>{item.display || '✨'}</span>
-              )}
+    <div className="p-8 bg-slate-900 min-h-screen">
+      <h2 className="text-3xl font-bold text-purple-400 mb-8 border-b border-purple-800 pb-2">
+        {category} Archive
+      </h2>
+      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
+        {items.map((item) => (
+          <div key={item} className="group bg-slate-800 rounded-xl p-4 border border-slate-700 hover:border-purple-500 transition-all transform hover:-translate-y-2">
+            <div className="aspect-square mb-4 overflow-hidden rounded-lg bg-slate-900 flex items-center justify-center">
+              <img 
+                src={getAssetUrl(category, item)} 
+                alt={item}
+                className="w-full h-full object-contain group-hover:scale-110 transition-transform"
+                onError={(e) => { e.target.src = 'https://via.placeholder.com/150?text=Spirit+Loading'; }}
+              />
             </div>
-            <div style={{ padding: '10px', textAlign: 'center', color: '#FFD700', fontSize: '0.9rem', fontWeight: 'bold' }}>
-              {item.name}
-            </div>
+            <p className="text-center text-sm font-medium text-slate-300 group-hover:text-purple-300 capitalize">
+              {item}
+            </p>
           </div>
         ))}
       </div>
-
-      {/* Wisdom Modal */}
-      {selectedItem && (
-        <div style={{ position: 'fixed', inset: 0, backgroundColor: 'rgba(0,0,0,0.95)', zIndex: 5000, display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '20px' }}>
-          <div style={{ backgroundColor: '#1e1b4b', width: '100%', maxWidth: '450px', borderRadius: '30px', padding: '30px', border: '2px solid #FFD700', maxHeight: '80vh', overflowY: 'auto' }}>
-            <div onClick={() => setSelectedItem(null)} style={{ textAlign: 'right', cursor: 'pointer', color: '#FFD700', fontWeight: 'bold' }}>✕ CLOSE</div>
-            <h2 style={{ color: '#FFD700', textAlign: 'center' }}>{selectedItem.name}</h2>
-            <div style={{ marginTop: '20px', fontSize: '0.95rem', lineHeight: '1.6', color: '#cbd5e1' }}>
-              {selectedItem.dates && <p><strong>Dates:</strong> {selectedItem.dates}</p>}
-              {selectedItem.strengths && <p><strong>Strengths:</strong> {selectedItem.strengths}</p>}
-              {selectedItem.properties && <p><strong>Properties:</strong> {selectedItem.properties}</p>}
-              {selectedItem.folklore && <p><strong>Folklore:</strong> {selectedItem.folklore}</p>}
-              {selectedItem.underactive && <p><strong>If Underactive:</strong> {selectedItem.underactive}</p>}
-              {selectedItem.affirmation && <p style={{color: '#FFD700', marginTop: '10px'}}><strong>Affirmation:</strong> {selectedItem.affirmation}</p>}
-            </div>
-          </div>
-        </div>
-      )}
     </div>
   );
 };
