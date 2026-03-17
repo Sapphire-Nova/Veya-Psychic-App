@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 const CelestialHeader = ({ activeChakra = "Crown Chakra" }) => {
   const s3Base = "https://your-bucket-name.s3.amazonaws.com/Chakras/";
   const chakraImageUrl = s3Base + activeChakra.toLowerCase() + ".png";
@@ -12,3 +12,4 @@ const CelestialHeader = ({ activeChakra = "Crown Chakra" }) => {
   );
 };
 export default CelestialHeader;
+

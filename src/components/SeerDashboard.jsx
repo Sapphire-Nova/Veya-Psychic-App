@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 const SeerDashboard = () => {
   const [isLive, setIsLive] = useState(false);
   const base = "px-10 py-4 rounded-full font-black text-lg transition-all ";
@@ -13,3 +13,4 @@ const SeerDashboard = () => {
   );
 };
 export default SeerDashboard;
+

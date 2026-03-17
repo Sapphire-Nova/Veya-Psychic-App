@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 const TarotChat = ({ currentCard = "The Fool" }) => {
   const s3Base = "https://your-bucket-name.s3.amazonaws.com/Tarot%20Cards/";
   const cardImageUrl = s3Base + currentCard.toLowerCase() + ".jpg";
@@ -11,3 +11,4 @@ const TarotChat = ({ currentCard = "The Fool" }) => {
   );
 };
 export default TarotChat;
+
