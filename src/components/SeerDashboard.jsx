@@ -12,6 +12,9 @@ const SeerDashboard = () => {
     setOfferingTitle('');
   };
 
+  const buttonBaseClass = "px-10 py-4 rounded-full font-black text-lg transition-all shadow-lg ";
+  const liveStatusClass = isLive ? "bg-green-500 animate-bounce shadow-green-500/50" : "bg-red-600 shadow-red-600/50";
+
   return (
     <div className="p-6 max-w-6xl mx-auto bg-slate-900 text-white min-h-screen font-sans">
       <header className="flex justify-between items-center border-b border-purple-500 pb-6 mb-8">
@@ -21,7 +24,7 @@ const SeerDashboard = () => {
         </div>
         <button 
           onClick={() => setIsLive(!isLive)}
-          className={px-10 py-4 rounded-full font-black text-lg transition-all shadow-lg \}
+          className={buttonBaseClass + liveStatusClass}
         >
           {isLive ? 'VIOLET IS LIVE' : 'GO LIVE'}
         </button>
