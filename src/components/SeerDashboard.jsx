@@ -21,14 +21,13 @@ const SeerDashboard = () => {
         </div>
         <button 
           onClick={() => setIsLive(!isLive)}
-          className={px-10 py-4 rounded-full font-black text-lg transition-all shadow-lg }
+          className={px-10 py-4 rounded-full font-black text-lg transition-all shadow-lg \}
         >
           {isLive ? 'VIOLET IS LIVE' : 'GO LIVE'}
         </button>
       </header>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-        {/* MEDIA & CONTENT MANAGER */}
         <section className="bg-slate-800/50 p-8 rounded-2xl border border-purple-500/20 backdrop-blur-sm">
           <h2 className="text-2xl font-bold mb-6 text-purple-300">Content & Media Manager</h2>
           <div className="space-y-4">
@@ -61,7 +60,6 @@ const SeerDashboard = () => {
           </div>
         </section>
 
-        {/* MESSAGING STATUS */}
         <section className="bg-slate-800/50 p-8 rounded-2xl border border-indigo-500/20 backdrop-blur-sm">
           <h2 className="text-2xl font-bold mb-6 text-indigo-300">Live Reading Portal</h2>
           <div className="h-48 flex items-center justify-center border-2 border-dashed border-slate-700 rounded-xl mb-4">
