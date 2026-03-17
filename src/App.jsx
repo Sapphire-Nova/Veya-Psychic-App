@@ -1,53 +1,27 @@
-import NextMoonEvent from './components/NextMoonEvent';
-import React, { useState } from 'react';
-import { Authenticator, ThemeProvider } from '@aws-amplify/ui-react';
-import '@aws-amplify/ui-react/styles.css';
+import React from 'react';
+import Navbar from './components/Navbar';
 import CelestialHeader from './components/CelestialHeader';
+import NextMoonEvent from './components/NextMoonEvent';
 import LearnLibrary from './components/LearnLibrary';
-import SeerDashboard from './components/SeerDashboard';
-
-const veyaTheme = {
-  name: 'veya-mystic-theme',
-  tokens: {
-    colors: {
-      background: { primary: { value: '#0a0a2e' } },
-      font: { interactive: { value: '#FFD700' } },
-      brand: {
-        primary: {
-          10: { value: '#1e1b4b' },
-          80: { value: '#FFD700' },
-          100: { value: '#E6C200' },
-        },
-      },
-    },
-  },
-};
+import TarotChat from './components/TarotChat';
 
 function App() {
-  const [isVioletLive, setIsVioletLive] = useState(true); // You can toggle this from your admin panel later!
-
   return (
-    <ThemeProvider theme={veyaTheme}>
-      <Authenticator>
-        {({ signOut, user }) => (
-          <main style={{ backgroundColor: '#000', minHeight: '100vh', color: 'white' }}>
-            <CelestialHeader isLive={isVioletLive} onSignOut={signOut} />
-          <NextMoonEvent />
-            
-            <div style={{ padding: '20px' }}>
-              <h2 style={{ color: '#FFD700', fontFamily: 'serif', textAlign: 'center' }}>Welcome, Seeker {user?.username}</h2>
-              
-              {/* Only show the Seer Portal if it's you! */}
-              {user?.username === 'Violet' && <SeerDashboard />}
-              
-              <LearnLibrary />
-            </div>
-          </main>
-        )}
-      </Authenticator>
-    </ThemeProvider>
+    <div className="min-h-screen bg-slate-950 text-white">
+      <Navbar />
+      <CelestialHeader activeChakra="Crown Chakra" />
+      <main className="container mx-auto px-4 py-8 space-y-12">
+        <NextMoonEvent />
+        <section className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <TarotChat currentCard="The Fool" />
+          <div className="flex flex-col justify-center p-8 bg-indigo-900/20 rounded-3xl border border-indigo-500/30">
+            <h2 className="text-3xl font-bold mb-4 text-purple-300">Spiritual Guidance</h2>
+            <p className="text-slate-300">Connect with Violet for instant psychic guidance or explore our archives.</p>
+          </div>
+        </section>
+        <LearnLibrary category="Crystals" items={['Amethyst', 'Rose Quartz', 'Citrine']} />
+      </main>
+    </div>
   );
 }
-
 export default App;
-
